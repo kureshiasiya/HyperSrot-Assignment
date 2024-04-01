@@ -21,17 +21,16 @@ body {
 .form-group {
   margin-bottom: 20px;
 }
-
-.form-label {
-  font-weight: bold;
-}
-
 .form-control {
   width: 100%;
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.form-label {
+  font-weight: bold;
 }
 
 .textarea-control {
@@ -171,27 +170,27 @@ body {
   .form-control {
     font-size: 14px;
   }
+  .card-custom {
+    width: calc(50% - 20px); /* Adjust width for smaller screens */
+    height: 500px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: pink;
+    border: 2px solid purple;
+  }
+
+  /* HeaderTitle styles */
+  .header-title {
+    font-size: 24px; /* Decrease font size for smaller screens */
+    margin-top: 10px;
+    text-align: center;
+    background: linear-gradient(90deg, purple, rgb(227, 167, 227));
+    color: white;
+    border-radius: 10px;
+  }
 }
 
 /* CardCustom styles */
-.card-custom {
-  width: calc(50% - 20px); /* Adjust width for smaller screens */
-  height: 400px;
-  margin: 5px;
-  border-radius: 15px;
-  background-color: pink;
-  border: 2px solid purple;
-}
-
-/* HeaderTitle styles */
-.header-title {
-  font-size: 24px; /* Decrease font size for smaller screens */
-  margin-top: 10px;
-  text-align: center;
-  background: linear-gradient(90deg, purple, rgb(227, 167, 227));
-  color: white;
-  border-radius: 10px;
-}
 
 /* Adjust margin for mobile screens */
 @media screen and (max-width: 576px) {
