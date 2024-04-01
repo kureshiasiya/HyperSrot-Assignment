@@ -1,0 +1,218 @@
+Header.css .header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(253, 184, 253);
+}
+/* TaskForm styles */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.textarea-control {
+  resize: vertical;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+.submit-button {
+  background-color: purple;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: purple;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  display: block; /* Ensures each error message appears on a new line */
+  margin-top: 5px; /* Adds some space between the input and the error message */
+}
+.card-custom {
+  width: calc(25% - 20px); /* Set the width of each box */
+  height: 400px; /* Set the height of each box */
+  margin: 5px;
+  border-radius: 15px; /* Apply rounded corners */
+  background-color: pink;
+  border: 2px solid purple;
+}
+
+/* .card-content {
+  background-color: rgb(232, 167, 232) e; /* Background color inside boxes */
+
+.card-gap {
+  margin-right: 50px; /* Adjust the gap size as needed */
+}
+.header-title {
+  font-size: 40px; /* Set font size for the title */
+  /* margin-bottom: 5px; */
+  margin-top: 18px; /* Add margin at the bottom of the title */
+  text-align: center;
+  margin-left: 350px;
+  background: linear-gradient(90deg, purple, rgb(227, 167, 227));
+  color: white;
+  border-radius: 10px;
+}
+/* You can adjust the margin to create space between the select input and the button */
+.d-flex.align-items-center > *:first-child {
+  margin-right: 50px; /* Adjust as needed */
+}
+.add-button {
+  background-color: purple; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove default button border */
+  padding: 8px 16px; /* Add padding */
+  border-radius: 4px; /* Add border-radius for rounded corners */
+  cursor: pointer; /* Add cursor pointer on hover */
+}
+
+.add-button:hover {
+  background-color: purple; /* Darker blue background color on hover */
+}
+.filter-button,
+.priority-button {
+  margin-right: 10px; /* Add margin-right to create a gap between buttons */
+}
+
+.filter-button {
+  background-color: purple; /* Set background color for the filter button */
+  color: #fff; /* Set text color for the filter button */
+}
+
+.priority-button {
+  background-color: purple; /* Set background color for the priority button */
+  color: #fff; /* Set text color for the priority button */
+}
+
+.filter-button:hover,
+.priority-button:hover {
+  opacity: 0.8; /* Reduce opacity on hover for both buttons */
+}
+.create-task-button {
+  margin-right: 10px; /* Add margin to the right */
+  float: right; /* Float the button to the right */
+  border-radius: 5px; /* Add border radius to make corners slightly rounded */
+  background-color: purple; /* Set background color */
+  border-color: purple; /* Set border color */
+  color: #fff; /* Set text color to white */
+}
+
+.create-task-button:hover {
+  background-color: purple; /* Darker background color on hover */
+  border-color: purple; /* Darker border color on hover */
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: red;
+  margin: 10px 0;
+}
+
+.title-priority-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-content {
+  text-align: center;
+}
+.info-box {
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  border: 2px solid purple;
+}
+/* .close-button {
+  float: right !important;
+  color: black !important;
+} */
+/* Adjust spacing for mobile screens */
+@media screen and (max-width: 576px) {
+  .form-container {
+    padding: 10px;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+}
+
+/* CardCustom styles */
+.card-custom {
+  width: calc(50% - 20px); /* Adjust width for smaller screens */
+  height: 400px;
+  margin: 5px;
+  border-radius: 15px;
+  background-color: pink;
+  border: 2px solid purple;
+}
+
+/* HeaderTitle styles */
+.header-title {
+  font-size: 24px; /* Decrease font size for smaller screens */
+  margin-top: 10px;
+  text-align: center;
+  background: linear-gradient(90deg, purple, rgb(227, 167, 227));
+  color: white;
+  border-radius: 10px;
+}
+
+/* Adjust margin for mobile screens */
+@media screen and (max-width: 576px) {
+  .header-title {
+    margin-left: 0; /* Remove margin for smaller screens */
+  }
+}
+
+/* FilterButton and PriorityButton styles */
+.filter-button,
+.priority-button,
+.create-task-button {
+  padding: 8px 12px; /* Adjust padding for smaller screens */
+  font-size: 14px; /* Decrease font size for smaller screens */
+}
+
+/* Adjust margin for mobile screens */
+@media screen and (max-width: 576px) {
+  .filter-button,
+  .priority-button,
+  .create-task-button {
+    margin-right: 5px; /* Decrease margin for smaller screens */
+  }
+}

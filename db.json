@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    {
+      "id": "1cef",
+      "title": "Learn Java",
+      "description": "This is to learn java",
+      "startDate": "2024-02-28",
+      "endDate": "2024-03-28",
+      "assignee": "asiya",
+      "status": "In Progress",
+      "priority": "P1",
+      "date": "2024-03-31T16:20:56.595Z",
+      "completed": false
+    },
+    {
+      "id": "1e19",
+      "title": "ccs",
+      "description": "dsds",
+      "startDate": "",
+      "endDate": "",
+      "assignee": "",
+      "status": "",
+      "priority": "",
+      "date": "2024-04-01T09:37:45.851Z",
+      "completed": false
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comments",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
